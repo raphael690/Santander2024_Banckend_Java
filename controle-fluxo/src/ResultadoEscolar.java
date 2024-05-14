@@ -54,23 +54,3 @@ public class ResultadoEscolar{
 
 
 
-/*Aplicando JOptionPane.showMenssageDialog e JOptionPane.showOnputDialog */
-
-import java.util.Scanner;
-
-import javax.swing.JOptionPane;
-public class ResultadoEscolar{
-    public static void main(String[] args){
-
-        Scanner sc = new Scanner(System.in);
-
-        System.out.println("Digite a sua nota final: ");
-        Double nota = sc.nextDouble();
-        String resultado;
-
-        resultado = nota >= 7 ? "Aprovado" : nota >= 5 && nota < 7 ? "Recuperação" : "Reprovado";
-
-        JOptionPane.showMessageDialog(null,resultado);
-
-    }
-}
