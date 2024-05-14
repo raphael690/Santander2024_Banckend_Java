@@ -147,7 +147,20 @@ public class Operadores {
             System.out.println("Um dos valores é verdadeiro");
         }
         
-            System.out.println("FIM");              
+       System.out.println("--------------------------------------------------------");
+       
+       int numer1 = 1;
+       int numer2 = 1;
+
+       if(numer1== 2 & numer2 ++ == 2 )
+       System.out.println("As 2 condições são verdadeiras");
+
+       System.out.println("O numero 1 agora é " + numer1);
+       System.out.println("O numero 2 agora é " + numer2);
+
+
+       
+       System.out.println("FIM");              
 
     }
 
