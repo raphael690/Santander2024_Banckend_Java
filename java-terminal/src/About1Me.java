@@ -13,14 +13,14 @@ public class About1Me {
         String sobrenome = scanner.next();
 
         System.out.println("Digite sua idade:");
-        String idade = scanner.next();
+        int idade = scanner.nextInt();
 
         System.out.println("Digite sua altura");
-        String altura = scanner.next();
+        double altura = scanner.nextDouble();
 
         //Imprimindo os dados obtidos pelo usuario
-        System.out.println("Olá, me chamo " + nome + " " + sobrenome);
-        System.out.println("Tenho " + idade +  "anos ");
+        System.out.println("Olá, me chamo " + nome.toUpperCase() + " " + sobrenome.toUpperCase());
+        System.out.println("Tenho " + idade +  " anos ");
         System.out.println("Minha altura é " + altura + " cm ");
 
     }
