@@ -42,7 +42,7 @@ public class ResultadoEscolar{
 
 
 //--------Estrutra Condicional Ternária Cenario 2-------
-/* 
+
 public class ResultadoEscolar{
     public static void main(String[] args){
         double nota = 4.99;
@@ -50,7 +50,7 @@ public class ResultadoEscolar{
         System.out.println(resultado);
     }
 }
-*/
+
 
 
 
